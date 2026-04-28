@@ -144,3 +144,4 @@ vite.config.ts.timestamp-*
 
 # Custom
 records/
+**/.DS_Store
