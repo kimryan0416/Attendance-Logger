@@ -56,6 +56,6 @@ app.get("/go", (req, res) => {
   res.redirect(302, redirectUrl);
 });
 
-app.listen(PORT, () => {
-  console.log("Running on http://localhost:3000");
+app.listen(3000, "0.0.0.0", () => {
+  console.log("Running on http://[IP ADDRESS]:3000\nTo access your IP address, you can use `ipconfig` in your command line.");
 });
